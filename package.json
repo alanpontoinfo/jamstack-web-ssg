@@ -1,0 +1,17 @@
+{
+  "name": "jamstack-web-ssg",
+  "version": "1.0.0",
+  "description": "Treinando jamstack",
+  "main": "vibre.js",
+  "scripts": {
+    "build":"eleventy",
+    "start":"eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alan Santos <alsnj@netlify.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

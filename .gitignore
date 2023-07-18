@@ -1,8 +1,5 @@
 
 node_modules
 dist
-<<<<<<< HEAD
-
-=======
 .env
->>>>>>> feat_ssg
+

@@ -5,9 +5,25 @@ layout: base.njk
 
 <div class="container">
   <h1>Esta é uma página para você</h1>
+<<<<<<< HEAD
   <div class="vibre">Vocé parece ótimo!</div>
   <div class="love">
     ❤️
   </div>
+=======
+  <div class="vibre">Você parece ótimo!</div>
+  <div class="love">
+    ❤️
+  </div>
+  <ul>
+  {% for article in news.articles %}
+    <li>
+      <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+      <span>{{ article.source.name }} - <time>{{ article.publishedAt }}</time></span>
+    </li>
+
+  {% endfor %}
+  </ul>
+>>>>>>> feat_ssg
 </div>
 <script src="/js/vibre.js"></script>

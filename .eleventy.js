@@ -4,7 +4,12 @@ module.exports = function(config) {
   return  {
     dir: {
       input: "src",
+<<<<<<< HEAD
       output: "dist"
+=======
+      output: "dist",
+      data: "_data"   
+>>>>>>> feat_ssg
     }
   };
 

@@ -8,3 +8,8 @@ layout: base.njk
   <p>Esta página foi feita para você usando HTML, CSS e JavaScript. E servido como u
 m JAMStack site.</p>
 </div>
+
+
+{% for item in news %}
+  <a href="/{{ item.country}}">{{ item.country }}</a>
+{%  endfor %}
